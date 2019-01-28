@@ -1,0 +1,28 @@
+{
+  "name": "alfabeta-colegio",
+  "description": "Website do Colégio Alfa Beta",
+  "main": "index.js",
+  "authors": [
+    "Bruno Gomes"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "Colegio",
+    "Alfa",
+    "Beta",
+    "Educacao"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.2.1",
+    "jquery": "^3.3.1"
+  }
+}

@@ -1,0 +1,293 @@
+@import "../components/bootstrap/scss/bootstrap";
+@import "../components/components-font-awesome/scss/fontawesome";
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+body{
+	font-family: 'Varela Round', sans-serif;
+}
+
+/* Topo */
+
+.topo{
+	background-color: #fff;	
+}
+
+.topo-fundo{
+	background-color: #f3f3f3;
+}
+
+.info-topo{
+	top:10px;
+}
+
+.info-area{
+	top:7px;
+}
+
+.info-tel{
+	text-align: right;
+	font-size: 16px;
+    font-weight: 400;
+    color: #747474;
+    > span{
+    	color: #db812d;
+    }
+}
+
+.info-topo a:hover{
+	text-decoration: none;
+}
+
+.info-sis{
+	text-align: center;
+	font-size: 16px;
+    font-weight: 400;
+    color: #747474;
+    > span{
+    	color: #db812d;
+    }
+}
+
+.areaaluno{
+	padding: 2px 10px;
+    background-color: #db812d;
+    color: #FFF;
+    border-radius: 2px;
+    width: 148px;
+    > a{
+    	color: #fff;
+    	text-decoration: none;
+    }   
+    &:hover{
+		opacity:0.5;
+		cursor: pointer;
+		text-decoration: none;
+		color: #fff;
+	}
+}
+
+
+/* Menu */
+
+.logo{
+	padding-bottom: 17px;
+}
+
+.logo2{
+	padding-top: 10px;
+}
+
+.menu {	
+	background-color: #fff;
+	padding-top: 20px;
+	border-bottom: 1px solid #ccc;
+    margin-bottom: 30px;
+    box-shadow: 10px 3px 10px 0px #ccc;     
+}
+
+.menu2 {	
+	background-color: #fff;	
+	border-bottom: 1px solid #ccc;
+    margin-bottom: 30px;
+    box-shadow: 10px 3px 10px 0px #ccc; 
+    position: fixed;
+	top: 0;
+	z-index: 99;
+	width: 100%;
+	transition: all .5s;
+}
+
+.menu-geral{
+	margin-top: 29px;
+}
+
+.menu-geral2{
+	margin-top: 1px;
+}
+
+.nav-menu{
+	font-size: 26px;
+	font-weight: bold;
+}
+
+.nav-item{
+	padding-left: 9px;
+    padding-right: 6px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+	color: #db812d;
+	border: 1px solid;
+	border-radius: 5px;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu{	
+	border: 1px solid;
+	border-radius: 5px;
+	font-size: 26px;
+	color: #ccc;
+}
+
+.dropdown-item:hover, .dropdown-item:focus{
+	color: #db812d;
+    text-decoration: none;
+    .fas{
+    	display: inline;
+    }    
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #db812d;
+    text-decoration: none;
+    background-color: #fff;
+}
+
+.dropdown-item{
+	color: #7c7c7d;
+	.fas{
+		display:none;
+	}
+}
+
+.dropdown:hover>.dropdown-menu {
+     display: block;
+}
+
+
+/* Acesso Raído */
+
+.destaques{
+	margin-top: 30px;	
+}
+
+.noticias{
+	font-size: 67px;
+    font-weight: 900;
+    color: #db812d;
+    margin: 0 0 15px 0;
+    letter-spacing: -2px;
+}
+
+.diferencial{
+	height: 94px;
+	background-color: #e17597;
+	> p{
+		font-weight: 900;
+		font-size: 30px;
+		padding-top: 20px;
+	    color: #FFF;	    	    
+	}
+	&:hover{
+		background-color: #e04072;
+	}	
+}
+
+.bolsa{
+	height: 94px;
+	background-color: #4deb80;
+	> p{
+		font-weight: 900;
+		font-size: 29px;
+		padding-top: 20px;
+	    color: #FFF;	    	    
+	}
+	&:hover{
+		background-color: #0be752;
+	}
+}
+
+.parceiros{
+	height: 94px;
+	background-color: #9564ee;
+	> p{
+		font-weight: 900;
+		font-size: 30px;
+		padding-top: 20px;
+	    color: #FFF;	    
+	}
+	&:hover{
+		background-color: #7c3eec;
+	}
+}
+
+.anglo{
+	height: 94px;
+	background-color: #64b0d9;
+	> p{
+		font-weight: 900;
+		font-size: 30px;
+		padding-top: 20px;
+	    color: #FFF;	    
+	}
+	&:hover{
+		background-color: #3da2d8;
+	}
+}
+
+/* Notícias */
+
+.noticias{
+	margin-top: 30px;	
+}
+
+.card-text a{
+	text-decoration: none;
+	color: #7c7c7d;
+}
+
+.card-text a:hover{
+	text-decoration: underline;
+	color: #7c7c7d;
+}
+
+.not-data{
+	font-size: 11px;
+	color: #7c7c7d;
+}
+
+/* Footer */
+
+.footer{
+	margin-top: 20px;
+	background-color: #d26b12;
+}
+
+.acesso-footer{
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.menu-footer{
+	.nav-link {
+		padding: 0.1rem 1rem;
+		color: #fff;
+	}
+}
+
+.menu-footer{
+	.nav-link {
+		.fas{
+			display: none;
+		}
+	}		
+}
+
+.menu-footer:hover{
+	.nav-link:hover{	
+    	.fas{
+    		display: inline;
+    	}
+    }    
+}
+
+.footer-end{
+	text-align: center;
+    color: #959595;
+    margin-top: 14px;
+}
+
+.footer-dev{
+	text-align: center;
+    color: #959595;
+    font-size: 11px;
+}
