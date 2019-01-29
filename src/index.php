@@ -1,7 +1,7 @@
 <?php
 	require_once('header.php');
 ?>
-<div class="container">
+<div class="container" style="padding-bottom: 20px; margin-top: 30px;">
 	<div class="row">
 		<div class="col-sm-12">
 			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -35,22 +35,22 @@
 	<div class="row destaques">
 		<div class="col-sm-3 ">
 			<div class="col-sm-12 diferencial">
-				<p>diferencial</p>
+				<p><a href="">diferencial</a></p>
 			</div>			
 		</div>
 		<div class="col-sm-3">
 			<div class="col-sm-12 bolsa">
-				<p>bolsa de estudo</p>
+				<p><a href="">bolsa de estudo</a></p>
 			</div>			
 		</div>
 		<div class="col-sm-3">
 			<div class="col-sm-12 parceiros">			
-				<p>parceiros</p>
+				<p><a href="parceiros.php">parceiros</a></p>
 			</div>			
 		</div>
 		<div class="col-sm-3">
 			<div class="col-sm-12 anglo">			
-				<p>sistema anglo</p>
+				<p><a href="">sistema anglo</a></p>
 			</div>		
 		</div>			
 		<div class="col-sm-12">

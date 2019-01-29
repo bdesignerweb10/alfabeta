@@ -81,7 +81,7 @@ body{
 	background-color: #fff;
 	padding-top: 20px;
 	border-bottom: 1px solid #ccc;
-    margin-bottom: 30px;
+    //margin-bottom: 30px;
     box-shadow: 10px 3px 10px 0px #ccc;     
 }
 
@@ -175,7 +175,11 @@ body{
 		font-weight: 900;
 		font-size: 30px;
 		padding-top: 20px;
-	    color: #FFF;	    	    
+	    color: #FFF;	
+	    > a{
+			color: #fff;
+			text-decoration: none;
+		}     	    
 	}
 	&:hover{
 		background-color: #e04072;
@@ -189,7 +193,11 @@ body{
 		font-weight: 900;
 		font-size: 29px;
 		padding-top: 20px;
-	    color: #FFF;	    	    
+	    color: #FFF;
+	    > a{
+			color: #fff;
+			text-decoration: none;
+		} 	    	    
 	}
 	&:hover{
 		background-color: #0be752;
@@ -203,10 +211,16 @@ body{
 		font-weight: 900;
 		font-size: 30px;
 		padding-top: 20px;
-	    color: #FFF;	    
-	}
+	    color: #FFF;	
+	    > a{
+			color: #fff;
+			text-decoration: none;
+		}    
+	}	
 	&:hover{
 		background-color: #7c3eec;
+		color: #fff;
+		text-decoration: none;
 	}
 }
 
@@ -217,7 +231,11 @@ body{
 		font-weight: 900;
 		font-size: 30px;
 		padding-top: 20px;
-	    color: #FFF;	    
+	    color: #FFF;
+	    > a{
+			color: #fff;
+			text-decoration: none;
+		} 	    
 	}
 	&:hover{
 		background-color: #3da2d8;
@@ -248,7 +266,7 @@ body{
 /* Footer */
 
 .footer{
-	margin-top: 20px;
+	//margin-top: 20px;
 	background-color: #d26b12;
 }
 
@@ -290,4 +308,133 @@ body{
 	text-align: center;
     color: #959595;
     font-size: 11px;
+}
+
+
+/* Contato */
+
+
+.contato-form{
+	padding-bottom: 20px;
+}
+
+.cont-index-contato {
+    padding-top: 28px;
+}
+
+.form-cont-area-contato {
+    padding-top: 20px;
+}
+
+.form-contato{
+	height: calc(4.25rem + 2px);
+}
+
+.btn-custom{
+	width: 102%;
+	background-color: #d26b12;
+	color:#fff;
+	&:hover{
+		color:#fff;
+	}
+}
+
+.contato-fone{
+	margin-left: 22px;
+    margin-bottom: -34px;
+    font-size: 20px;
+    margin-top: 32px;
+    >span{
+    	font-size: 18px;
+    }
+    .fas {
+    	color: #ee6b00;
+    }
+}
+
+.text-contato{
+	font-size: 20px;
+	margin-top: 32px;
+}
+
+.capa{
+	display: block;
+    width: 100%;
+    padding: 100px 0 70px 0;
+    background: url(../img/bgtitulo.png);
+}
+
+.titulo-capa{
+	color: #FFF;
+    font-size: 42px;    
+}
+
+.container-contato{
+	    margin-top: -50px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+
+/* Institucional - História */
+
+.institucional{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	text-align: justify;
+}
+
+.relacionadas{
+	margin-top: 30px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #747474;
+}
+
+.active-custom{
+	background-color: #e58638;
+	color: #fff;
+	&:hover{
+		background-color: #e58638;
+		color: #fff;
+	}
+}
+
+.list-group-item-action:hover, .list-group-item-action:focus{
+	background-color: #e2e2e2;
+}
+
+/* parceiros */
+
+.empresas-parceiras{
+	padding-top: 30px;
+}
+
+.negociacao{
+	margin-bottom: 40px;
+}
+
+.media {
+	margin-top: 15px;	
+}
+
+.media p{
+	text-align: justify;
+}
+
+
+/* Ensino */
+
+.fundamental{
+	margin-top:20px;
+	>h2{
+		color: #db812d;
+	    font-weight: 600;
+	    font-size: 30px;
+	    margin: 0 0 25px 0;
+	}
+	>p{
+		text-align: justify;
+	}
 }

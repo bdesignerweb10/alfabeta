@@ -14,17 +14,17 @@
 				<div class="row">
 					<div class="col-sm-4 acesso-footer">
 						<nav class="nav flex-column menu-footer">
-						  <a class="nav-link" href="#"><i class="fas fa-caret-right"></i> Ensino Fundamental I</a>
-						  <a class="nav-link" href="#"><i class="fas fa-caret-right"></i> Ensino Fundamental II</a>
-						  <a class="nav-link" href="#"><i class="fas fa-caret-right"></i> Ensino Médio</a>				  
+						  <a class="nav-link" href="fundamental-I.php"><i class="fas fa-caret-right"></i> Ensino Fundamental I</a>
+						  <a class="nav-link" href="fundamental-II.php"><i class="fas fa-caret-right"></i> Ensino Fundamental II</a>
+						  <a class="nav-link" href="ensino-medio.php"><i class="fas fa-caret-right"></i> Ensino Médio</a>				  
 						</nav>
 					</div>
 					<div class="col-sm-4 acesso-footer">
 						<nav class="nav flex-column menu-footer">
 						  <a class="nav-link" href="#"><i class="fas fa-caret-right"></i> Estrutura</a>
-						  <a class="nav-link" href="#"><i class="fas fa-caret-right"></i> Filosofia</a>
-						  <a class="nav-link" href="#"><i class="fas fa-caret-right"></i> História</a>
-						  <a class="nav-link" href="#"><i class="fas fa-caret-right"></i> Horário</a>				  
+						  <a class="nav-link" href="filosofia.php"><i class="fas fa-caret-right"></i> Filosofia</a>
+						  <a class="nav-link" href="historia.php"><i class="fas fa-caret-right"></i> História</a>
+						  <a class="nav-link" href="horarios.php"><i class="fas fa-caret-right"></i> Horário</a>				  
 						</nav>
 					</div>
 					<div class="col-sm-4 acesso-footer">
@@ -56,14 +56,15 @@
 	<script src="js/textext.plugin.autocomplete.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/textext.plugin.ajax.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/jquery.tablesorter.min.js" type="text/javascript"></script>
+	<script src="js/jquery.mask.js"></script>
 	<script>
-		$(function() {
-			$('[data-toggle="tooltip"]').tooltip();
-		});
+		$(function () {
+		  $('[data-toggle="tooltip"]').tooltip()
+		})
 	</script>
 	<script>
 		$(document).on("scroll",function(){
-		    if($(document).scrollTop()>100){ 
+		    if($(document).scrollTop()>200){ 
 		        $("#header").removeClass("menu").addClass("menu2"); 
 		        $("#header").removeClass("logo").addClass("logo2"); 
 		        $("#mgeral").removeClass("menu-geral").addClass("menu-geral2"); 
@@ -76,6 +77,9 @@
 		    }
 		});
 	</script>	
+	<script>
+		$("#telefone").mask("(00) 0000-00009");
+	</script>
 	<?php if($conn) $conn->close(); ob_end_flush(); ob_clean(); ?>
 	</body>
 </html>

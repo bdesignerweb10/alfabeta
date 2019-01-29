@@ -56,7 +56,7 @@
 				  <div class="collapse navbar-collapse" id="navbarNavDropdown">
 				    <ul class="navbar-nav nav-menu">
 				      <li class="nav-item">
-				        <a class="nav-link" href="#">Home</a>
+				        <a class="nav-link" href="index.php">Home</a>
 				      </li>
 				      <li class="nav-item dropdown">
 				        <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -64,9 +64,9 @@
 				        </a>
 				        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 				          <a class="dropdown-item" href="#"><i class="fas fa-caret-right"></i> Estrutura</a>
-				          <a class="dropdown-item" href="#"><i class="fas fa-caret-right"></i> Filosofia</a>
-				          <a class="dropdown-item" href="#"><i class="fas fa-caret-right"></i> História</a>
-				          <a class="dropdown-item" href="#"><i class="fas fa-caret-right"></i> Horário</a>
+				          <a class="dropdown-item" href="filosofia.php"><i class="fas fa-caret-right"></i> Filosofia</a>
+				          <a class="dropdown-item" href="historia.php"><i class="fas fa-caret-right"></i> História</a>
+				          <a class="dropdown-item" href="horarios.php"><i class="fas fa-caret-right"></i> Horário</a>
 				        </div>
 				      </li>
 				      <li class="nav-item dropdown">
@@ -74,9 +74,9 @@
 				          Ensino
 				        </a>
 				        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-				          <a class="dropdown-item" href="#"><i class="fas fa-caret-right"></i>Ensino Fundamental I</a>
-				          <a class="dropdown-item" href="#"><i class="fas fa-caret-right"></i> Ensino Fundamental II</a>
-				          <a class="dropdown-item" href="#"><i class="fas fa-caret-right"></i> Ensino Médio</a>
+				          <a class="dropdown-item" href="fundamental-I.php"><i class="fas fa-caret-right"></i> Ensino Fundamental I</a>
+				          <a class="dropdown-item" href="fundamental-II.php"><i class="fas fa-caret-right"></i> Ensino Fundamental II</a>
+				          <a class="dropdown-item" href="ensino-medio.php"><i class="fas fa-caret-right"></i> Ensino Médio</a>
 				        </div>
 				      </li>	
 				      <li class="nav-item">
@@ -93,7 +93,7 @@
 				        </div>
 				      </li>				      
 				      <li class="nav-item">
-				        <a class="nav-link" href="#">Contato</a>
+				        <a class="nav-link" href="contato.php">Contato</a>
 				      </li>
 				    </ul>
 				  </div>
