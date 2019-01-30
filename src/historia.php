@@ -21,7 +21,7 @@
 			  <a href="#" class="list-group-item list-group-item-action relacionadas active-custom">
 			    Páginas Relacionadas
 			  </a>
-			  <a href="#" class="list-group-item list-group-item-action">Estrutura</a>
+			  <a href="estrutura.php" class="list-group-item list-group-item-action">Estrutura</a>
 			  <a href="filosofia.php" class="list-group-item list-group-item-action">Filosofia</a>
 			  <a href="horarios.php" class="list-group-item list-group-item-action">Horário</a>			  
 			</div>

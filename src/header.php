@@ -49,7 +49,7 @@
 				<a href="index.php"><img src="img/logo-alfabeta.png" class="logo"></a>
 			</div>
 			<div class="col-sm-8">
-				<nav class="navbar navbar-expand-lg navbar-light bg-light menu-geral" id="mgeral">				  
+				<nav class="navbar navbar-expand-lg navbar-light menu-geral" id="mgeral">				  
 				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 				    <span class="navbar-toggler-icon"></span>
 				  </button>
@@ -63,7 +63,7 @@
 				          Colégio
 				        </a>
 				        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-				          <a class="dropdown-item" href="#"><i class="fas fa-caret-right"></i> Estrutura</a>
+				          <a class="dropdown-item" href="estrutura.php"><i class="fas fa-caret-right"></i> Estrutura</a>
 				          <a class="dropdown-item" href="filosofia.php"><i class="fas fa-caret-right"></i> Filosofia</a>
 				          <a class="dropdown-item" href="historia.php"><i class="fas fa-caret-right"></i> História</a>
 				          <a class="dropdown-item" href="horarios.php"><i class="fas fa-caret-right"></i> Horário</a>
@@ -87,7 +87,7 @@
 				          Serviços
 				        </a>
 				        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-				          <a class="dropdown-item" href="#"><i class="fas fa-caret-right"></i> Financeiro</a>
+				          <a class="dropdown-item" href="financeiro.php"><i class="fas fa-caret-right"></i> Financeiro</a>
 				          <a class="dropdown-item" href="#"><i class="fas fa-caret-right"></i> Matrícula</a>
 				          <a class="dropdown-item" href="#"><i class="fas fa-caret-right"></i> Uniforme</a>
 				        </div>

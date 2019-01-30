@@ -1,0 +1,13 @@
+RewriteEngine On
+
+RewriteRule ^/?$ index.php
+RewriteRule ^estrutura/?$ estrutura.php
+
+RewriteRule ^filosofia/?$ filosofia.php
+RewriteRule ^historia/?$ historia.php
+RewriteRule ^horario/?$ horario.php
+RewriteRule ^fundamental-I/?$ fundamental-I.php
+RewriteRule ^fundamental-II/?$ fundamental-II.php
+RewriteRule ^ensino-medio/?$ ensino-medio.php
+RewriteRule ^contato/?$ contato.php
+
