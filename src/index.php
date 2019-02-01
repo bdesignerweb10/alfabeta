@@ -3,7 +3,7 @@
 ?>
 <div class="container" style="padding-bottom: 20px; margin-top: 30px;">
 	<div class="row">
-		<div class="col-sm-12">
+		<div class="col-sm-12">			
 			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 			  <ol class="carousel-indicators">
 			    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -35,7 +35,7 @@
 	<div class="row destaques">
 		<div class="col-sm-3 ">
 			<div class="col-sm-12 diferencial">
-				<p><a href="">diferencial</a></p>
+				<p><a href="diferencial.php">diferenciais</a></p>
 			</div>			
 		</div>
 		<div class="col-sm-3">
@@ -62,7 +62,7 @@
 			<div class="card" style="width: 18rem;">
 			  <img src="img/noticias/volta-aulas.png" class="card-img-top" alt="...">
 			  <div class="card-body">
-			    <p class="card-text"><a href="">Some quick example text to build on the card title and make up the bulk of the card's content.</a></p>
+			    <p class="card-text"><a href="noticia.php">Some quick example text to build on the card title and make up the bulk of the card's content.</a></p>
 			    <span class="not-data">15/01/2019</span>
 			  </div>
 			</div>			

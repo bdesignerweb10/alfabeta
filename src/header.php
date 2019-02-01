@@ -27,6 +27,7 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-toggle.min.css">
 	<link rel="stylesheet" type="text/css" href="css/jquery.datetimepicker.css">
 	<link rel="stylesheet" type="text/css" href="css/textext.plugin.autocomplete.css">
+	<link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 	
 </head>
@@ -80,7 +81,7 @@
 				        </div>
 				      </li>	
 				      <li class="nav-item">
-				        <a class="nav-link" href="#">Notícias</a>
+				        <a class="nav-link" href="noticias.php">Notícias</a>
 				      </li>			      
 				      <li class="nav-item dropdown">
 				        <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

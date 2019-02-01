@@ -11438,8 +11438,45 @@ body {
   width: 624px;
   height: 300px;
   overflow: hidden; }
+  .santander > iframe {
+    position: absolute;
+    width: 1024px;
+    height: 768px; }
 
-iframe {
-  position: absolute;
-  width: 1024px;
-  height: 768px; }
+/* Notícias */
+.data-not {
+  background: #db812d;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px; }
+
+.title {
+  margin-top: 20px;
+  color: #db812d; }
+
+.galeria {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.img-noticia {
+  height: 150px;
+  width: 150px; }
+
+/* Lista Noticias */
+.list-not {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+  .list-not > a {
+    text-decoration: none; }
+    .list-not > a:hover {
+      text-decoration: none; }
+
+/* Diferencial */
+.title-dif {
+  font-size: 22px;
+  color: #db812d;
+  margin-top: 35px; }
+
+.img-dif {
+  margin-top: 20px;
+  margin-bottom: 20px; }

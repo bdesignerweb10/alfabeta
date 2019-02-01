@@ -31,7 +31,9 @@
 						<nav class="nav flex-column menu-footer">
 						  <a class="nav-link" href="#"><i class="fas fa-caret-right"></i> Financeiro</a>
 						  <a class="nav-link" href="#"><i class="fas fa-caret-right"></i> Matrícula</a>
-						  <a class="nav-link" href="#"><i class="fas fa-caret-right"></i> Uniforme</a>				  
+						  <a class="nav-link" href="#"><i class="fas fa-caret-right"></i> Uniforme</a>		
+						  <a class="nav-link" href="noticias.php"><i class="fas fa-caret-right"></i> Notícias</a>	 
+						  <a class="nav-link" href="contato.php"><i class="fas fa-caret-right"></i> Contato</a>	 
 						</nav>
 					</div>					
 				</div><!-- row -->		
@@ -57,6 +59,7 @@
 	<script src="js/textext.plugin.ajax.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/jquery.tablesorter.min.js" type="text/javascript"></script>
 	<script src="js/jquery.mask.js"></script>
+	<script src="js/lightbox-plus-jquery.min.js"></script>
 	<script>
 		$(function () {
 		  $('[data-toggle="tooltip"]').tooltip()
